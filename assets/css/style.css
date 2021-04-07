@@ -247,7 +247,7 @@ h1, h2, h3, h4, h5, h6 {
   letter-spacing: 1px;
   border-bottom: 3px solid #149ddd;
 }
-#hero button {
+#hero a {
 	color: #fff;
 	font-size: 18px;
 	font-family: "Poppins", sans-serif;
@@ -348,6 +348,9 @@ section {
 @media (max-width: 768px) {
   .about .content ul li {
       font-size: 13px;
+  }
+  .about .content ul {
+    margin-top: -15px;
   }
 }
 
